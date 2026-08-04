@@ -40,9 +40,7 @@ Nhấn giữ biểu tượng app trên màn hình chính > **Xóa App (Remove Ap
 Bác nào hay uống Highlands thì nhớ lấy voucher trước khi đặt nhé.
 Mất vài giây mà tiết kiệm được kha khá. 😄
 
-[![Highlands Coffee Voucher](https://img.shields.io/badge/☕_Lấy_Voucher_Highlands_Coffee-C8922A?style=for-the-badge&logoColor=white)](https://trackecom.asia/9AHYxyQ3)
-
-👉 https://trackecom.asia/GqBsVT8z
+[![Highlands Coffee Voucher](https://img.shields.io/badge/☕_Lấy_Voucher_Highlands_Coffee-C8922A?style=for-the-badge&logoColor=white)](https://trackecom.asia/CQmMtXcJ)
 
 Cảm ơn bác đã ủng hộ, coi như mời mình một ly cà phê nhé! ❤️
 

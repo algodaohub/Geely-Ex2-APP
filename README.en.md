@@ -27,9 +27,7 @@ The Geely EX2 app suite consists of 3 files for 3 different devices:
 If you drink Highlands Coffee, grab a voucher before you order.
 It takes a few seconds and saves you a fair bit. 😄
 
-[![Highlands Coffee Voucher](https://img.shields.io/badge/☕_Lấy_Voucher_Highlands_Coffee-C8922A?style=for-the-badge&logoColor=white)](https://trackecom.asia/9AHYxyQ3)
-
-👉 https://trackecom.asia/GqBsVT8z
+[![Highlands Coffee Voucher](https://img.shields.io/badge/☕_Lấy_Voucher_Highlands_Coffee-C8922A?style=for-the-badge&logoColor=white)](https://trackecom.asia/CQmMtXcJ)
 
 Thanks for the support — consider it a coffee on you! ❤️
 
