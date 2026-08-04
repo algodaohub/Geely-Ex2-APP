@@ -2,10 +2,10 @@
 
 Có **2 file APK**, dùng cho 2 mục đích khác nhau:
 
-| File | Mục đích |
-|---|---|
-| `Geely-Ex2-Phone.apk` | Cài lên **điện thoại Android** |
-| `Geely-Ex2-Car.apk` | Cài lên **màn hình xe Geely EX2** |
+| File | Mục đích | Tải về |
+|---|---|---|
+| `Geely-Ex2-Phone.apk` | Cài lên **điện thoại Android** | [⬇️ Tải xuống](Geely-Ex2-Phone.apk) |
+| `Geely-Ex2-Car.apk` | Cài lên **màn hình xe Geely EX2** | [⬇️ Tải xuống](Geely-Ex2-Car.apk) |
 
 ---
 
@@ -22,7 +22,7 @@ Có **2 file APK**, dùng cho 2 mục đích khác nhau:
 
 ## Phần 2: Cài app lên màn hình xe Geely EX2
 
-Màn hình xe chạy Android nhưng bị khóa, nên **phải mở khóa (kích hoạt ADB qua Wi-Fi) trước**, sau đó mới cài được file `Geely-Ex2-Car.apk`.
+Màn hình xe chạy Android nhưng bị khóa, nên **phải mở khóa (kích hoạt ADB qua Wi-Fi) trước**, sau đó mới cài được file [⬇️ `Geely-Ex2-Car.apk`](Geely-Ex2-Car.apk).
 
 ### Bước 0: Kiểm tra phiên bản màn hình tương thích
 
@@ -98,7 +98,7 @@ USB gốc (ROOT)
 2. Mở chương trình, nhập **địa chỉ IP** của màn hình xe vào ô góc trên bên phải, bấm nút **WiFi** để kết nối.
 3. Lần đầu kết nối, **chấp nhận cài đặt ACBridge** khi chương trình yêu cầu.
 4. Chọn menu **Cài đặt (Install) → Cài đặt nhanh (Quick Install)**.
-5. Chọn file `Geely-Ex2-Car.apk` và chờ cài xong.
+5. Chọn file [⬇️ `Geely-Ex2-Car.apk`](Geely-Ex2-Car.apk) và chờ cài xong.
 
 ---
 

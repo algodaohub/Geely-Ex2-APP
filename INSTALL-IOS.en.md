@@ -1,6 +1,6 @@
 # iOS Installation Guide (iPhone)
 
-Install file: `GeelyEX2.ipa`
+Install file: [⬇️ GeelyEX2.ipa](GeelyEX2.ipa)
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Install file: `GeelyEX2.ipa`
 2. Plug your iPhone into the computer with a cable (an original cable is recommended).
 3. On the iPhone, tap **Trust** if you see the **Trust This Computer** prompt.
 4. Open **Sideloadly**.
-5. Drag the `GeelyEX2.ipa` file into the Sideloadly window.
+5. Drag the [⬇️ `GeelyEX2.ipa`](GeelyEX2.ipa) file into the Sideloadly window.
 6. Select your iPhone in the **Device** box.
 7. Enter the **Apple ID** (and password) of the person who will use the app in the **Apple ID** box.
 8. Click **Start** and wait for the signing + installation process to finish.

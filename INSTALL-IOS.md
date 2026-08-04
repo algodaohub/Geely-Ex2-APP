@@ -1,6 +1,6 @@
 # Hướng dẫn cài đặt iOS (iPhone)
 
-File cài đặt: `GeelyEX2.ipa`
+File cài đặt: [⬇️ GeelyEX2.ipa](GeelyEX2.ipa)
 
 ## Yêu cầu
 
@@ -14,7 +14,7 @@ File cài đặt: `GeelyEX2.ipa`
 2. Cắm iPhone vào máy tính bằng cáp (nên dùng cáp chính hãng).
 3. Trên iPhone, nếu có thông báo **Trust This Computer**, hãy bấm **Trust**.
 4. Mở **Sideloadly**.
-5. Kéo file `GeelyEX2.ipa` vào cửa sổ Sideloadly.
+5. Kéo file [⬇️ `GeelyEX2.ipa`](GeelyEX2.ipa) vào cửa sổ Sideloadly.
 6. Chọn đúng iPhone của bạn trong ô **Device**.
 7. Nhập **Apple ID** (và mật khẩu) của người sẽ dùng app vào ô **Apple ID**.
 8. Bấm nút **Start** và chờ quá trình ký + cài đặt hoàn tất.

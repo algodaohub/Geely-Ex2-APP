@@ -4,11 +4,11 @@
 
 The Geely EX2 app suite consists of 3 files for 3 different devices:
 
-| File | Used for |
-|---|---|
-| `GeelyEX2.ipa` | iPhone (iOS) |
-| `Geely-Ex2-Phone.apk` | Android phone |
-| `Geely-Ex2-Car.apk` | Geely EX2 head unit |
+| File | Used for | Download |
+|---|---|---|
+| `GeelyEX2.ipa` | iPhone (iOS) | [⬇️ Download](GeelyEX2.ipa) |
+| `Geely-Ex2-Phone.apk` | Android phone | [⬇️ Download](Geely-Ex2-Phone.apk) |
+| `Geely-Ex2-Car.apk` | Geely EX2 head unit | [⬇️ Download](Geely-Ex2-Car.apk) |
 
 ## 📱 Installation Guides
 

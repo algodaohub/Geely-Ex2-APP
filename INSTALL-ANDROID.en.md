@@ -2,10 +2,10 @@
 
 There are **2 APK files**, used for 2 different purposes:
 
-| File | Purpose |
-|---|---|
-| `Geely-Ex2-Phone.apk` | Install on your **Android phone** |
-| `Geely-Ex2-Car.apk` | Install on the **Geely EX2 head unit** |
+| File | Purpose | Download |
+|---|---|---|
+| `Geely-Ex2-Phone.apk` | Install on your **Android phone** | [⬇️ Download](Geely-Ex2-Phone.apk) |
+| `Geely-Ex2-Car.apk` | Install on the **Geely EX2 head unit** | [⬇️ Download](Geely-Ex2-Car.apk) |
 
 ---
 
@@ -22,7 +22,7 @@ There are **2 APK files**, used for 2 different purposes:
 
 ## Part 2: Install the app on the Geely EX2 head unit
 
-The head unit runs Android but is locked down, so you **must unlock it first (enable ADB over Wi-Fi)** before you can install the `Geely-Ex2-Car.apk` file.
+The head unit runs Android but is locked down, so you **must unlock it first (enable ADB over Wi-Fi)** before you can install the [⬇️ `Geely-Ex2-Car.apk`](Geely-Ex2-Car.apk) file.
 
 ### Step 0: Check head unit compatibility
 
@@ -98,7 +98,7 @@ USB ROOT
 2. Open the program, enter the **IP address** of the head unit in the top-right box, and click the **WiFi** button to connect.
 3. On the first connection, **accept the ACBridge installation** when prompted.
 4. Select **Install → Quick Install** from the left menu.
-5. Choose the `Geely-Ex2-Car.apk` file and wait for the installation to finish.
+5. Choose the [⬇️ `Geely-Ex2-Car.apk`](Geely-Ex2-Car.apk) file and wait for the installation to finish.
 
 ---
 

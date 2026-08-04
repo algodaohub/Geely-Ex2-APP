@@ -4,11 +4,11 @@
 
 Bộ ứng dụng Geely EX2 gồm 3 file cho 3 thiết bị khác nhau:
 
-| File | Dùng cho |
-|---|---|
-| `GeelyEX2.ipa` | iPhone (iOS) |
-| `Geely-Ex2-Phone.apk` | Điện thoại Android |
-| `Geely-Ex2-Car.apk` | Màn hình xe Geely EX2 |
+| File | Dùng cho | Tải về |
+|---|---|---|
+| `GeelyEX2.ipa` | iPhone (iOS) | [⬇️ Tải xuống](GeelyEX2.ipa) |
+| `Geely-Ex2-Phone.apk` | Điện thoại Android | [⬇️ Tải xuống](Geely-Ex2-Phone.apk) |
+| `Geely-Ex2-Car.apk` | Màn hình xe Geely EX2 | [⬇️ Tải xuống](Geely-Ex2-Car.apk) |
 
 ## 📱 Hướng dẫn cài đặt
 
