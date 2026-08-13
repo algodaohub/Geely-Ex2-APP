@@ -38,9 +38,27 @@ Nếu thiết bị không nằm trong danh sách hỗ trợ, **không nên tiế
 
 > Jailbreak làm thay đổi cơ chế bảo mật của iOS. Một số ứng dụng ngân hàng, ví điện tử hoặc nội dung có DRM có thể phát hiện và từ chối hoạt động.
 
-## 3. Cài và kích hoạt Dopamine
+## 3. Cài TrollStore
 
-Phương thức cài Dopamine phụ thuộc thiết bị và phiên bản iOS. Một số máy có thể cài qua TrollStore; trường hợp khác cần máy tính hoặc công cụ ký ứng dụng.
+TrollStore cho phép cài lâu dài các file IPA tương thích mà không phải ký lại mỗi 7 ngày. Đây cũng là cách thuận tiện để giữ ứng dụng Dopamine trên những phiên bản iOS được hỗ trợ.
+
+Theo repository chính thức, TrollStore hỗ trợ **iOS 14.0 beta 2 đến 16.6.1, iOS 16.7 RC (20H18) và iOS 17.0**. Các bản 16.7.x khác và 17.0.1 trở lên không được hỗ trợ bởi lỗi CoreTrust hiện tại.
+
+Cách cài thay đổi theo chip và phiên bản iOS, vì vậy không nên tải một installer ngẫu nhiên:
+
+1. Mở trang TrollStore chính thức và xác nhận phiên bản iOS nằm trong phạm vi hỗ trợ.
+2. Chọn hướng dẫn cài đặt tương ứng từ iOS Guide.
+3. Sau khi TrollStore xuất hiện, mở **Settings → Install Persistence Helper**.
+4. Chọn ứng dụng hệ thống được hướng dẫn, thường là **Tips (Mẹo)**.
+5. Bật **URL Scheme Enabled** nếu cần mở liên kết cài IPA trực tiếp.
+
+👉 **[Kiểm tra và tải TrollStore chính thức](https://github.com/opa334/TrollStore)**
+
+> Chỉ tải TrollStore từ repository `opa334/TrollStore` hoặc liên kết được iOS Guide chỉ dẫn. Không nhập Apple ID vào website tự nhận là “TrollStore online”.
+
+## 4. Cài và kích hoạt Dopamine
+
+Phương thức cài Dopamine phụ thuộc thiết bị và phiên bản iOS. Nếu đã có TrollStore, bạn có thể tải IPA Dopamine theo iOS Guide rồi mở file bằng TrollStore.
 
 Sau khi cài đúng theo iOS Guide:
 
@@ -53,7 +71,21 @@ Dopamine là Jailbreak dạng semi-untethered: sau khi iPhone khởi động l�
 
 👉 **[Xem đầy đủ quy trình cài Dopamine](https://ios.cfw.guide/installing-dopamine/)**
 
-## 4. Cài CarBridge chính chủ qua Havoc
+## 5. Cài AppStore++ bằng TrollStore
+
+**AppStore++** là công cụ độc lập giúp xem và tải các phiên bản ứng dụng cũ còn có trên máy chủ App Store. Công cụ này hữu ích khi một bản cập nhật mới không còn phù hợp với iOS cũ hoặc hoạt động không ổn định trên thiết bị Jailbreak.
+
+1. Mở trang Releases chính thức của `CokePokes/AppStorePlus-TrollStore`.
+2. Tải file IPA trong bản phát hành mới nhất.
+3. Chọn mở file bằng **TrollStore** rồi nhấn **Install**.
+4. Mở AppStore++ và đăng nhập App Store khi hệ thống yêu cầu.
+5. Tìm ứng dụng, chọn phiên bản có sẵn và tải về.
+
+👉 **[Tải AppStore++ cho TrollStore từ GitHub chính thức](https://github.com/CokePokes/AppStorePlus-TrollStore/releases)**
+
+> AppStore++ không bảo đảm mọi phiên bản cũ đều còn tải được. Hạ phiên bản có thể làm mất dữ liệu ứng dụng hoặc gây lỗi tương thích; hãy sao lưu dữ liệu quan trọng trước khi sử dụng.
+
+## 6. Cài CarBridge chính chủ qua Havoc
 
 CarBridge chính thức hỗ trợ kiến trúc rootless và yêu cầu thiết bị đã Jailbreak. Khả năng tương thích iOS có thể thay đổi theo phiên bản sản phẩm, vì vậy hãy kiểm tra trực tiếp trên Havoc trước khi mua.
 
@@ -68,7 +100,7 @@ CarBridge chính thức hỗ trợ kiến trúc rootless và yêu cầu thiết 
 
 Theo trang chính thức của CarBridge, Havoc là kênh tải hợp lệ duy nhất; các website cung cấp bản tải “miễn phí”, bản IPA hoặc bản không cần Jailbreak có thể là giả mạo.
 
-## 5. Đưa ứng dụng lên Apple CarPlay
+## 7. Đưa ứng dụng lên Apple CarPlay
 
 1. Mở **Cài đặt → CarBridge** trên iPhone.
 2. Bật CarBridge.
@@ -78,7 +110,7 @@ Theo trang chính thức của CarBridge, Havoc là kênh tải hợp lệ duy n
 
 Không phải ứng dụng nào cũng được tối ưu để thao tác trên màn hình xe. Nếu ứng dụng hiển thị sai hoặc không phản hồi, hãy tắt ứng dụng đó trong CarBridge.
 
-## 6. Lỗi thường gặp
+## 8. Lỗi thường gặp
 
 ### CarBridge ngừng hoạt động sau khi khởi động lại
 
@@ -88,11 +120,19 @@ Mở Dopamine, kích hoạt Jailbreak lại và chờ thiết bị respring. B�
 
 Kiểm tra Sileo đã cài đúng bản rootless, sau đó respring. Nếu vẫn lỗi, xem lại phiên bản iOS có nằm trong phạm vi CarBridge hỗ trợ hay không.
 
+### TrollStore hoặc ứng dụng đã cài không mở được
+
+Mở ứng dụng **Tips (Mẹo)** đã gắn Persistence Helper, chọn **Refresh App Registrations**, sau đó thử mở TrollStore lại.
+
+### AppStore++ không hiện phiên bản cần tìm
+
+Phiên bản đó có thể không còn được Apple cung cấp, chưa từng được tải bằng tài khoản của bạn hoặc không tương thích với thiết bị. Không tải IPA đã chỉnh sửa từ nguồn không rõ ràng để thay thế.
+
 ### Ứng dụng ngân hàng báo thiết bị không an toàn
 
 Đây có thể là cơ chế phát hiện Jailbreak của ứng dụng. Không nên cố vượt kiểm tra bảo mật; hãy dùng thiết bị khác hoặc khôi phục iPhone về trạng thái nguyên bản nếu ứng dụng tài chính là ưu tiên.
 
-## 7. An toàn khi sử dụng CarBridge
+## 9. An toàn khi sử dụng CarBridge
 
 - Chỉ phát video khi xe đã dừng, đỗ an toàn hoặc dành cho hành khách.
 - Không thao tác YouTube, TikTok hay ứng dụng video khi đang lái xe.
