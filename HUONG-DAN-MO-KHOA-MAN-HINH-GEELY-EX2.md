@@ -38,6 +38,8 @@ USB
 
 ## 3. Mở menu kỹ thuật
 
+![Mở menu kỹ thuật trên màn hình Geely EX2](assets/images/mo-khoa-man-hinh/buoc-3-mo-menu-ky-thuat.png)
+
 1. Cắm USB vào xe và chờ màn hình nhận thiết bị.
 2. Tắt Bluetooth để ngắt kết nối điện thoại.
 3. Mở ứng dụng **Điện thoại** trên màn hình.
@@ -57,6 +59,8 @@ Ví dụ ngày 20/07 lúc 19 giờ:
 
 ## 4. Áp dụng bản vá
 
+![Chọn chức năng áp dụng bản vá trên màn hình Geely EX2](assets/images/mo-khoa-man-hinh/buoc-4-ap-dung-ban-va.png)
+
 1. Trong menu kỹ thuật, chọn biểu tượng cài đặt bản cập nhật.
 2. Màn hình sẽ tự khởi động vào Recovery và chạy gói vá.
 3. Thông báo lỗi ở cuối quá trình là **một phần có chủ ý của quy trình**.
@@ -66,13 +70,19 @@ Sau bước này, quyền truy cập ADB đã được kích hoạt.
 
 ## 5. Kết nối Wi-Fi và bật ADB
 
+![Mở cài đặt và kết nối Wi-Fi trên màn hình Geely EX2](assets/images/mo-khoa-man-hinh/buoc-5-ket-noi-wifi.png)
+
 1. Vào lại menu ẩn và mở phần cài đặt Wi-Fi.
 2. Kết nối màn hình và máy tính vào cùng một mạng Wi-Fi.
 3. Ghi lại địa chỉ IP hiển thị trên màn hình.
 4. Mở Dialer Mode bằng công thức phía trên.
 5. Nhấn nút **ADB** một lần để bật chế độ kết nối.
 
+![Bật chế độ ADB trong Dialer Mode của Geely EX2](assets/images/mo-khoa-man-hinh/buoc-5-bat-adb.png)
+
 ## 6. Cài ứng dụng bằng ADB AppControl
+
+![Kết nối và cài ứng dụng cho Geely EX2 bằng ADB AppControl](assets/images/mo-khoa-man-hinh/buoc-6-cai-ung-dung.png)
 
 1. Tải [ADB AppControl](https://adbappcontrol.com/en/#download) về máy tính.
 2. Nhập địa chỉ IP của màn hình vào ô phía trên bên phải.
