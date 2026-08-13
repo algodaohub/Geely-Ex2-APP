@@ -11,7 +11,10 @@
     <header class="topbar">
       <button class="menu-button" aria-label="Mở menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
       <a class="brand" href="{{ '/' | relative_url }}">GEELY EX2 <span>Góc chia sẻ</span></a>
-      <a class="github-link" href="https://github.com/{{ site.repository }}">Xem trên GitHub ↗</a>
+      <div class="topbar-actions">
+        <a class="zalo-link" href="https://zalo.me/0945245115" target="_blank" rel="noopener noreferrer" aria-label="Liên hệ hỗ trợ qua Zalo số 0945245115">Hỗ trợ Zalo <strong>0945 245 115</strong></a>
+        <a class="github-link" href="https://github.com/{{ site.repository }}">GitHub ↗</a>
+      </div>
     </header>
 
     <div class="docs-layout">
@@ -31,6 +34,11 @@
           {{ content }}
         </article>
         {% unless page.url == '/' %}
+          {% unless page.url == '/phu-kien-geely-ex2/' %}
+            <aside class="highlands-cta" aria-label="Voucher Highlands Coffee">
+              <a href="https://goecom.asia/18AW7wST" target="_blank" rel="sponsored noopener noreferrer">Highlands Coffee Voucher</a>
+            </aside>
+          {% endunless %}
           <footer class="article-footer">
             <a href="{{ '/' | relative_url }}">← Quay lại mục lục</a>
             <a href="https://github.com/{{ site.repository }}/edit/main/{{ page.path }}">Chỉnh sửa bài viết ↗</a>
