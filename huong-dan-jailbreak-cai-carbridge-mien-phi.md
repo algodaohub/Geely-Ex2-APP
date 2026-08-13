@@ -22,9 +22,17 @@ permalink: /huong-dan-jailbreak-cai-carbridge-mien-phi/
 
 Vào **Cài đặt → Cài đặt chung → Giới thiệu**, ghi lại **Tên kiểu máy** và **Phiên bản iOS**. Sau đó dùng công cụ chọn hướng dẫn tại iOS Guide thay vì áp dụng một phương pháp chung cho mọi máy.
 
-Dopamine hỗ trợ nhiều tổ hợp thiết bị/iOS khác nhau, nhưng phạm vi phụ thuộc chip và phiên bản cụ thể. Ví dụ, phạm vi hỗ trợ của A12–A16 không giống A11 trở xuống; iOS 16.6–16.6.1 cũng không được hỗ trợ giống nhau trên mọi đời máy.
+Dopamine 3.x hỗ trợ nhiều tổ hợp thiết bị/iOS, nhưng phạm vi phụ thuộc chip:
 
-👉 **[Mở hướng dẫn Dopamine và kiểm tra thiết bị tương thích](https://ios.cfw.guide/installing-dopamine/)**
+| Nhóm thiết bị | Phiên bản iOS được dự án công bố hỗ trợ |
+|---|---|
+| **A14–A17, M1–M2** | iOS 15.0–17.3.1 |
+| **A8–A13** | iOS 15.0–18.7.1 |
+| **A12–A13** | Có thêm hỗ trợ iOS 26.0–26.0.1 |
+
+Phạm vi trên được cập nhật theo Dopamine 3.x tại thời điểm viết. Một số bản beta hoặc thiết bị cụ thể có thể có giới hạn riêng, vì vậy luôn kiểm tra lại trang chính thức trước khi cài.
+
+👉 **[Kiểm tra Dopamine và thiết bị tương thích trên GitHub](https://github.com/opa334/Dopamine)**
 
 Nếu thiết bị không nằm trong danh sách hỗ trợ, **không nên tiếp tục** và không tin các trang quảng cáo “Jailbreak mọi iPhone chỉ với một lần nhấn”.
 
@@ -58,18 +66,44 @@ Cách cài thay đổi theo chip và phiên bản iOS, vì vậy không nên t�
 
 ## 4. Cài và kích hoạt Dopamine
 
-Phương thức cài Dopamine phụ thuộc thiết bị và phiên bản iOS. Nếu đã có TrollStore, bạn có thể tải IPA Dopamine theo iOS Guide rồi mở file bằng TrollStore.
+Trang tải chính thức của Dopamine là `ellekit.space/dopamine`. Không tải IPA từ website gắn nhãn “Dopamine online”, video rút gọn link hoặc repository không thuộc `opa334`.
 
-Sau khi cài đúng theo iOS Guide:
+👉 **[Mở trang tải Dopamine chính thức](https://ellekit.space/dopamine/)**
+
+### Cách 1: Cài Dopamine bằng TrollStore
+
+Áp dụng khi phiên bản iOS của bạn hỗ trợ TrollStore:
+
+1. Mở [trang Dopamine chính thức](https://ellekit.space/dopamine/) bằng Safari.
+2. Nhấn **Open in TrollStore**; hoặc tải file IPA từ bản phát hành chính thức rồi mở bằng TrollStore.
+3. Trong TrollStore, chọn **Install**.
+4. Quay về màn hình chính và mở Dopamine.
+
+Đây là lựa chọn thuận tiện vì ứng dụng Dopamine không cần ký lại sau mỗi 7 ngày.
+
+### Cách 2: Cài khi không dùng được TrollStore
+
+Nếu thiết bị được Dopamine hỗ trợ nhưng phiên bản iOS không hỗ trợ TrollStore:
+
+1. Mở trang tải chính thức và chọn **Guide (No TrollStore)**.
+2. Tải đúng file IPA Dopamine từ repository `opa334/Dopamine`.
+3. Làm theo công cụ ký/cài được hướng dẫn cho thiết bị của bạn.
+4. Với một số phương pháp ký thông thường, ứng dụng có thể cần được ký lại định kỳ.
+
+### Kích hoạt Jailbreak lần đầu
+
+Sau khi Dopamine được cài:
 
 1. Mở **Dopamine**.
-2. Chọn **Sileo** làm trình quản lý gói nếu được hỏi.
-3. Nhấn **Jailbreak** và chờ thiết bị respring.
-4. Kiểm tra ứng dụng **Sileo** đã xuất hiện.
+2. Nhấn **Jailbreak**.
+3. Chọn trình quản lý gói **Sileo** hoặc **Zebra** khi được hỏi; bài này sử dụng Sileo.
+4. Thiết lập mật khẩu `root`/`mobile` đủ mạnh nếu Dopamine yêu cầu. Không dùng mật khẩu đơn giản như `1234`.
+5. Chờ Dopamine hoàn tất và thiết bị respring.
+6. Kiểm tra **Sileo** đã xuất hiện trên màn hình chính.
 
-Dopamine là Jailbreak dạng semi-untethered: sau khi iPhone khởi động lại, bạn thường phải mở Dopamine và kích hoạt Jailbreak lại.
+Dopamine là Jailbreak **rootless, semi-untethered**. Tweak phải hỗ trợ rootless. Sau khi iPhone khởi động lại, mở Dopamine và nhấn Jailbreak lại; không cần cài lại TrollStore, Sileo hoặc CarBridge.
 
-👉 **[Xem đầy đủ quy trình cài Dopamine](https://ios.cfw.guide/installing-dopamine/)**
+👉 **[Tải bản Dopamine mới nhất từ GitHub chính thức](https://github.com/opa334/Dopamine/releases/latest)**
 
 ## 5. Cài AppStore++ bằng TrollStore
 
