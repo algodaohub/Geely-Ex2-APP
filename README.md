@@ -18,6 +18,7 @@ Sở hữu Geely EX2 mới chỉ là bước khởi đầu. Chỉ cần cài đ�
 - **[Phụ kiện Geely EX2 đáng mua](PHU-KIEN-SAN-PHAM-NEN-MUA-CHO-GEELY-EX2.md)** — chọn đúng món, tránh mua thừa.
 - **[Cài ứng dụng Geely EX2 trên Android](INSTALL-ANDROID.md)** — hướng dẫn từng bước với file APK.
 - **[Cài ứng dụng Geely EX2 trên iPhone](INSTALL-IOS.md)** — cài file IPA bằng Sideloadly.
+- **[Jailbreak iPhone và cài CarBridge cho CarPlay](huong-dan-jailbreak-cai-carbridge-mien-phi.md)** — kiểm tra tương thích và cài từ nguồn chính chủ.
 
 ## Tải ứng dụng
 
