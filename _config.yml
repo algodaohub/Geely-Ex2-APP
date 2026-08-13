@@ -1,10 +1,10 @@
 title: "Geely EX2 Việt Nam"
 description: "Hướng dẫn sử dụng, cài đặt ứng dụng và lựa chọn phụ kiện dành cho chủ xe Geely EX2."
 url: "https://algodaohub.github.io"
-baseurl: "/Geely-Ex2-APP"
+baseurl: "/geely-ex2-hub"
 lang: "vi-VN"
 timezone: "Asia/Ho_Chi_Minh"
-repository: "algodaohub/Geely-Ex2-APP"
+repository: "algodaohub/geely-ex2-hub"
 permalink: pretty
 markdown: kramdown
 kramdown:
