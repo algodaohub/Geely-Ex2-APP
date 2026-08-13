@@ -1,3 +1,9 @@
+---
+title: "Hướng dẫn cài ứng dụng Geely EX2 trên iPhone"
+description: "Hướng dẫn cài file IPA của ứng dụng Geely EX2 trên iPhone bằng Sideloadly."
+permalink: /cai-dat-iphone/
+---
+
 # Hướng dẫn cài đặt iOS (iPhone)
 
 File cài đặt: [⬇️ GeelyEX2.ipa](GeelyEX2.ipa)

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d1117">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="menu-button" aria-label="Mở menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
+      <a class="brand" href="{{ '/' | relative_url }}">GEELY EX2 <span>Góc chia sẻ</span></a>
+      <a class="github-link" href="https://github.com/{{ site.repository }}">Xem trên GitHub ↗</a>
+    </header>
+
+    <div class="docs-layout">
+      <aside class="sidebar">
+        <nav aria-label="Điều hướng tài liệu">
+          <p class="nav-label">TÀI LIỆU GEELY EX2</p>
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+        <div class="sidebar-note">Nội dung chia sẻ bởi cộng đồng, không trực thuộc Geely.</div>
+      </aside>
+
+      <main class="content">
+        <div class="breadcrumbs"><a href="{{ '/' | relative_url }}">Trang chủ</a><span>/</span><span>{{ page.title | default: site.title }}</span></div>
+        <article class="markdown-body">
+          {{ content }}
+        </article>
+        {% unless page.url == '/' %}
+          <footer class="article-footer">
+            <a href="{{ '/' | relative_url }}">← Quay lại mục lục</a>
+            <a href="https://github.com/{{ site.repository }}/edit/main/{{ page.path }}">Chỉnh sửa bài viết ↗</a>
+          </footer>
+        {% endunless %}
+      </main>
+
+      <aside class="toc" aria-label="Mục lục bài viết">
+        <p>TRONG BÀI NÀY</p>
+        <div id="toc-list"></div>
+      </aside>
+    </div>
+    <script src="{{ '/assets/js/docs.js' | relative_url }}"></script>
+  </body>
+</html>

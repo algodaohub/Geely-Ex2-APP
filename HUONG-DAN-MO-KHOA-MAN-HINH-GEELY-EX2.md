@@ -1,3 +1,9 @@
+---
+title: "Hướng dẫn mở khóa và cài đặt phần mềm cho màn hình Geely EX2"
+description: "Hướng dẫn kích hoạt ADB qua Wi-Fi và cài ứng dụng cho màn hình nguyên bản của xe Geely EX2 bản 1111 hoặc 1114."
+permalink: /huong-dan-mo-khoa-man-hinh-geely-ex2/
+---
+
 # Hướng dẫn mở khóa và cài đặt phần mềm cho màn hình Geely EX2
 
 > Nguồn tham khảo: [Xe Thông Minh](https://xethongminh.net/threads/huong-dan-mo-khoa-va-cai-dat-phan-mem-cho-man-hinh-xe-geely-ex2.5527/)

@@ -1,3 +1,9 @@
+---
+title: "Hướng dẫn cài ứng dụng Geely EX2 trên Android"
+description: "Cách cài ứng dụng Geely EX2 trên điện thoại Android và màn hình xe bằng file APK."
+permalink: /cai-dat-android/
+---
+
 # Hướng dẫn cài đặt Android
 
 Có **2 file APK**, dùng cho 2 mục đích khác nhau:

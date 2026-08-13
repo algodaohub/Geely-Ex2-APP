@@ -1,0 +1,28 @@
+title: "Geely EX2 Việt Nam"
+description: "Hướng dẫn sử dụng, cài đặt ứng dụng và lựa chọn phụ kiện dành cho chủ xe Geely EX2."
+url: "https://algodaohub.github.io"
+baseurl: "/Geely-Ex2-APP"
+lang: "vi-VN"
+timezone: "Asia/Ho_Chi_Minh"
+repository: "algodaohub/Geely-Ex2-APP"
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.en.md
+  - INSTALL-ANDROID.en.md
+  - INSTALL-IOS.en.md
+  - Gemfile
+  - Gemfile.lock
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "vi"
+      image: "/assets/images/geely-ex2-chia-se.png"

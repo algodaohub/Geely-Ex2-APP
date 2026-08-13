@@ -11,6 +11,7 @@ keywords:
   - "Vietmap Live"
 slug: "phu-kien-san-pham-nen-mua-cho-geely-ex2"
 lang: "vi"
+permalink: "/phu-kien-geely-ex2/"
 ---
 
 # 8 phụ kiện và sản phẩm đáng mua cho Geely EX2

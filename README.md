@@ -1,4 +1,12 @@
-# Geely EX2 – Mục lục
+---
+title: "Geely EX2 Việt Nam – Hướng dẫn, ứng dụng và phụ kiện"
+description: "Tổng hợp hướng dẫn sử dụng, cài đặt ứng dụng và phụ kiện hữu ích dành cho người dùng xe điện Geely EX2 tại Việt Nam."
+permalink: /
+---
+
+# Geely EX2 – Hướng dẫn và kinh nghiệm sử dụng
+
+Chào mừng bạn đến với kho tài liệu dành cho cộng đồng **Geely EX2 Việt Nam**. Chọn nội dung cần xem bên dưới.
 
 ## Bài viết
 
