@@ -1,7 +1,16 @@
 ---
-title: 8 phụ kiện và sản phẩm đáng mua cho Geely EX2
-description: Gợi ý những phụ kiện Geely EX2 hữu ích: bơm lốp kích bình, thảm cốp, bộ V2L, giáp gầm, hộp đựng đồ, lưới chắn côn trùng và Vietmap Live.
-keywords: phụ kiện Geely EX2, đồ chơi Geely EX2, thảm lót cốp Geely EX2, giáp gầm Geely EX2, hộp đồ Geely EX2, V2L Geely EX2, Vietmap Live
+title: "8 phụ kiện và sản phẩm đáng mua cho Geely EX2"
+description: "Gợi ý phụ kiện Geely EX2 hữu ích: bơm lốp kích bình, thảm cốp, bộ V2L, giáp gầm, hộp đựng đồ, lưới chắn côn trùng và Vietmap Live."
+keywords:
+  - "phụ kiện Geely EX2"
+  - "đồ chơi Geely EX2"
+  - "thảm lót cốp Geely EX2"
+  - "giáp gầm Geely EX2"
+  - "hộp đựng đồ Geely EX2"
+  - "V2L Geely EX2"
+  - "Vietmap Live"
+slug: "phu-kien-san-pham-nen-mua-cho-geely-ex2"
+lang: "vi"
 ---
 
 # 8 phụ kiện và sản phẩm đáng mua cho Geely EX2

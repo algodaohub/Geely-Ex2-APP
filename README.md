@@ -1,34 +1,14 @@
-# Geely EX2 – Ứng dụng & Hướng dẫn cài đặt
+# Geely EX2 – Mục lục
 
-> 🌐 [English](README.en.md)
+## Bài viết
 
-Bộ ứng dụng Geely EX2 gồm 3 file cho 3 thiết bị khác nhau:
+- [Hướng dẫn mở khóa và cài đặt phần mềm cho màn hình Geely EX2](HUONG-DAN-MO-KHOA-MAN-HINH-GEELY-EX2.md)
+- [Phụ kiện và sản phẩm đáng mua cho Geely EX2](PHU-KIEN-SAN-PHAM-NEN-MUA-CHO-GEELY-EX2.md)
+- [Hướng dẫn cài đặt ứng dụng trên Android](INSTALL-ANDROID.md)
+- [Hướng dẫn cài đặt ứng dụng trên iPhone](INSTALL-IOS.md)
 
-| File | Dùng cho | Tải về |
-|---|---|---|
-| `GeelyEX2.ipa` | iPhone (iOS) | [⬇️ Tải xuống](GeelyEX2.ipa) |
-| `Geely-Ex2-Phone.apk` | Điện thoại Android | [⬇️ Tải xuống](Geely-Ex2-Phone.apk) |
-| `Geely-Ex2-Car.apk` | Màn hình xe Geely EX2 | [⬇️ Tải xuống](Geely-Ex2-Car.apk) |
+## Tải ứng dụng
 
-## 📱 Hướng dẫn cài đặt
-
-> 👉 **Xem ngay:**
-
-- [**Cài đặt trên iOS (iPhone)**](INSTALL-IOS.md)
-- [**Cài đặt trên Android (điện thoại + màn hình xe)**](INSTALL-ANDROID.md)
-
-### Gợi ý
-
-- Cài app lên điện thoại (iOS hoặc Android) rất đơn giản, làm theo đúng hướng dẫn tương ứng là xong.
-- Cài app lên **màn hình xe** cần mở khóa ADB trước — làm kỹ theo phần 2 của bản Android, đọc kỹ trước khi thao tác.
-
-## ☕️ Donate
-
-Bác nào hay uống Highlands thì nhớ lấy voucher trước khi đặt nhé.
-Mất vài giây mà tiết kiệm được kha khá. 😄
-
-[![Highlands Coffee Voucher](https://img.shields.io/badge/☕_Lấy_Voucher_Highlands_Coffee-C8922A?style=for-the-badge&logoColor=white)](https://trackecom.asia/CQmMtXcJ)
-
-Cảm ơn bác đã ủng hộ, coi như mời mình một ly cà phê nhé! ❤️
-
-Mỗi lượt ủng hộ là thêm động lực để mình build nhiều app và tool miễn phí cho cộng đồng. 🚀
+- [Geely EX2 dành cho điện thoại Android](Geely-Ex2-Phone.apk)
+- [Geely EX2 dành cho màn hình xe](Geely-Ex2-Car.apk)
+- [Geely EX2 dành cho iPhone](GeelyEX2.ipa)
